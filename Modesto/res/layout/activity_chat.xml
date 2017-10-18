@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ListView 
+  android:id="@+id/chatlistView"
+  android:layout_height="0dp"
+  android:layout_width="fill_parent"
+  android:layout_weight="1"
+  ></ListView>
+      
+<LinearLayout 
+	   android:id="@+id/chatllout"
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="horizontal"
+
+	   android:gravity="bottom">
+	 <EditText
+	    android:id="@+id/chattxt_inputText"
+	    android:layout_width="125dp"
+	    android:layout_height="wrap_content"
+	    android:hint = "@string/text_here"
+	    android:layout_weight="0.6"
+	   />
+	 <Button
+	    android:id="@+id/chatbtn_Send"
+	    android:layout_width="60dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.2"
+	    android:text="@string/send"
+	    />
+	 <Button
+	    android:id="@+id/chatbtn_revw"
+	    android:layout_width="70dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.2"
+	    android:text="@string/review"
+	    />
+</LinearLayout>
+    
+
+</LinearLayout>

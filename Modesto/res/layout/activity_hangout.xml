@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	tools:ignore="ContentDescription"
+    tools:context=".Hangout" >
+		<ImageView
+    	android:id="@+id/imgViewRestaurantDropdownmenu1"
+    	android:alpha="0.2"
+    	
+    	android:layout_height="match_parent"
+    	android:layout_width="match_parent"
+    	android:src="@drawable/food5"
+    	
+        />
+		
+                      <RelativeLayout
+            			    android:id="@+id/dropdownmenuRestaurantLinear1"
+                			android:layout_width="match_parent"	
+		            	    android:layout_height="50dp"
+    		            	android:gravity="center_vertical"
+        		       		android:orientation="horizontal"
+        		       		>
+ 
+ 				           <Spinner
+                				android:id="@+id/Restaurantspinnerexp"
+				                android:layout_width="match_parent"
+                				android:layout_height="40dp"
+                				android:background="@android:drawable/btn_dropdown"
+                				android:spinnerMode="dropdown"
+                				android:layout_alignParentTop="true" 
+                				 />
+						</RelativeLayout>
+						<Button
+	    	                android:id="@+id/RestaurantSecondButton"
+    		                android:textColor="@color/white"
+        		            android:background="@color/wallet_holo_blue_light"
+	            	        android:layout_below="@+id/dropdownmenuRestaurantLinear1"
+                		    android:layout_width="match_parent"
+                	    	android:layout_height="30dp"
+	        	            android:layout_marginLeft="10dp"
+    			            android:layout_marginRight="10dp"
+	        	            android:layout_marginBottom="5dp"
+                	    	android:text="@string/go_map_" />
+        				 
+         	<RelativeLayout
+            			    android:id="@+id/resdropdownmenuRestaurantRelative2"
+                			android:layout_width="match_parent"	
+		            	    android:layout_height="wrap_content"
+    		            	android:layout_below="@+id/RestaurantSecondButton"
+        		       		android:orientation="vertical"
+        		       		
+        		       		>
+ 				           <LinearLayout
+            			    android:id="@+id/RestaurantspinnerLinearexp1"
+                			android:layout_width="match_parent"	
+		            	    android:layout_height="wrap_content"
+    		            	android:orientation="horizontal"
+        		       		>           
+                <TextView
+                    android:id="@+id/RestaurantSecondtextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceLarge" 
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:textStyle="italic"
+                    
+                    />
+
+               
+				</LinearLayout>
+               <TextView
+                    android:id="@+id/RestaurantSecondtextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:textStyle="italic"
+                    android:layout_below="@+id/RestaurantspinnerLinearexp1"
+                   />
+               <TextView
+                    android:id="@+id/RestaurantSecondtextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:textStyle="italic"
+                    android:layout_below="@+id/RestaurantSecondtextView2"
+                   />
+               <TextView
+                    android:id="@+id/RestaurantSecondtextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:textStyle="italic"
+                    android:layout_below="@+id/RestaurantSecondtextView3"
+                   />
+               </RelativeLayout>
+                
+         	<RelativeLayout
+            	 android:id="@+id/RestaurantspinnerLinearexp2"
+                 android:layout_width="match_parent"	
+		         android:layout_height="wrap_content"
+    		     android:layout_below="@+id/resdropdownmenuRestaurantRelative2"
+    		     android:layout_marginTop="5dp"
+        		 >
+        		<ImageView
+			    	android:id="@+id/RestaurantSecondimgView1"
+	    			android:layout_height="wrap_content"
+    				android:layout_width="match_parent"
+    				android:layout_marginTop="10dp"
+    				/>
+            </RelativeLayout>
+         
+                
+</RelativeLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:ignore="NestedWeights,ContentDescription,TooDeepLayout,TooManyViews"
+    tools:context=".UserDataProfile" >
+    
+        <ImageView
+    	android:id="@+id/ProfileimgViewSignupMain"
+    	android:alpha="0.6"
+    	android:layout_height="match_parent"
+    	android:layout_width="match_parent"
+    	android:src="@drawable/food3"
+        />
+                    
+     
+    
+    <include
+        android:id="@+id/toplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/header_final" />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toplay"
+        
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUserMain"
+        android:layout_marginTop="15dp"
+        
+         >
+    
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUser2"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/password"
+        android:textSize="20sp"
+        
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+           />
+     	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        
+        
+        >		
+    		<ImageView 
+        	android:src="@drawable/password"
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"/>
+    		<Button
+    		    android:id="@+id/ProfileBtn2"
+    		    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:background="@drawable/edit_icon"
+			    android:layout_marginRight="5dp" />
+			<EditText
+        	android:id="@+id/ProfileSignupLoginUsereditText2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+      		android:ems="8"
+      		android:paddingLeft="3dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/shape_edittext"
+        	android:inputType="textPassword" />
+		</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUser3"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/name"
+        android:textSize="20sp"
+        
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+           />
+     	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        
+        
+        >		
+    		<ImageView 
+        	android:src="@drawable/name"
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"/>
+    		<Button
+    		    android:id="@+id/ProfileBtn3"
+    		    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:background="@drawable/edit_icon"
+			    android:layout_marginRight="5dp" />
+			<EditText
+        	android:id="@+id/ProfileSignupLoginUsereditText3"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+      		android:ems="8"
+      		android:paddingLeft="3dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/shape_edittext"
+        	android:inputType="textPersonName" />
+		</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUser4"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/emailid"
+        android:textSize="20sp"
+        
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+           />
+     	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        
+        
+        >		
+    		<ImageView 
+        	android:src="@drawable/email_icon"
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"/>
+    		<Button
+    		    android:id="@+id/ProfileBtn4"
+    		    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:background="@drawable/edit_icon"
+			    android:layout_marginRight="5dp" />
+			<EditText
+        	android:id="@+id/ProfileSignupLoginUsereditText4"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+      		android:ems="8"
+      		android:paddingLeft="3dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/shape_edittext"
+        	android:inputType="textEmailAddress" />
+		</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUser5"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/contact"
+        android:textSize="20sp"
+        
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+           />
+     	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        
+        
+        >		
+    		<ImageView 
+        	android:src="@drawable/contact"
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"/>
+    		<Button
+    		    android:id="@+id/ProfileBtn5"
+    		    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:background="@drawable/edit_icon"
+			    android:layout_marginRight="5dp" />
+			<EditText
+        	android:id="@+id/ProfileSignupLoginUsereditText5"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+      		android:ems="8"
+      		android:paddingLeft="3dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/shape_edittext"
+        	android:inputType="phone" />
+		</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ProfileLoginSignupUser6"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/address"
+        android:textSize="20sp"
+        
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+           />
+     	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        
+        
+        >		
+    		<ImageView 
+        	android:src="@drawable/address_icon"
+        	android:layout_width="30dp"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"/>
+    		<Button
+    		    android:id="@+id/ProfileBtn6"
+    		    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:background="@drawable/edit_icon"
+			    android:layout_marginRight="5dp" />
+			<EditText
+        	android:id="@+id/ProfileSignupLoginUsereditText6"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+      		android:ems="8"
+      		android:paddingLeft="3dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/shape_edittext"
+        	android:inputType="textMultiLine" />
+		</LinearLayout>
+</LinearLayout>
+                    <Button 
+                        android:id="@+id/ProfileSignupUserSubmiitBtn1"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/done"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20sp"
+                        android:background="@drawable/shape_red"
+                        android:textColor="@color/white"/>
+</LinearLayout>
+</ScrollView>
+    
+    
+</RelativeLayout>

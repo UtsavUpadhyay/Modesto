@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobileLinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/activated"
+    tools:context="com.modestoappln.MobileCon" >
+
+   <ListView
+        style="@style/activated"
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#3E3535"
+        android:divider="#00ffff"
+        android:dividerHeight="2sp" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Modesto</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">Search</string>
+    <string name="forgot_password"><b><u>Forgot Password? </u></b></string>
+    <string name="sign_up"><u>Do not have account yet!! Signup</u></string>
+    <string name="search_city">Search City</string>
+    <string name="login">Login</string>
+    <string name="group_reviews">Group Reviews</string>
+    <string name="reviews">Reviews</string>
+    <string name="comments">Comments</string>
+    <string name="communities">Communities</string>
+    <string name="search_for_interest">Search for interest</string>
+    <string name="contact_us_and_support">Contact us and Support</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="dining">Dining</string>
+    <string name="theatres">Theatres</string>
+    <string name="hangout_places">Hangout Places</string>
+    <string name="join_and_create_community">Join and Create Community</string>
+    <string name="create_your_own">Create your Own</string>
+    <string name="comments_from_others_">Comments from Others..</string>
+    <string name="find_happiness_here">Find Happiness Here</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="home">Home</string>
+    <string name="search_your_interest">Search Your Interest Here..</string>
+    <string name="your_dp">Your DP</string>
+    <string name="pic_for_recipe">Pic for Recipe</string>
+    <string name="food">Food</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="_650_the_global_kitchen">650 The Global Kitchen</string>
+    <string name="waterside">Waterside</string>
+    <string name="pvr_cinmeas">PVR Cinmeas</string>
+    <string name="zencafe">ZenCafe</string>
+    <string name="follow_us">Follow us</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="emailid">EmailID</string>
+    <string name="contact">Contact</string>
+    <string name="address">address</string>
+    <string name="display">Display</string>
+    <string name="title_activity_restaurant">Restaurants</string>
+    <string name="title_activity_hangout">Hangout Places</string>
+    <string name="title_activity_dining">Dine Out</string>
+    <string name="title_activity_theatre">Theatres</string>
+    <string name="go_map_">Search Places On Google Map!</string>
+    <string name="title_activity_NearByMap">Near By Locations</string>
+    <string name="str_btn_find">Go</string>
+
+    <string-array name="place_type">
+        <item>cafe</item>
+        <item>movie_theater</item>
+        <item>meal_takeaway</item>
+        <item>restaurant</item>
+    </string-array>
+    <string-array name="place_type_name">
+        <item>Cafetaria</item>
+        <item>Multiplex</item>
+        <item>Hangout Places</item>
+        <item>Restaurant</item>
+    </string-array>
+	
+    <string name="title_activity_review">Review</string>
+    
+    <string name="title_activity_sitemap">Location</string>
+    
+    <string name="normal">Normal</string>
+    
+    <string name="terrain">Terrain</string>
+    
+    <string name="satellite">Satellite</string>
+    
+    <string name="hybrid">Hybrid</string>
+    
+    <string name="by_google">by Google</string>
+    
+    <string name="customer_s_reviews">Customer\'s Reviews</string>
+    
+    <string name="rate">Rate</string>
+    
+    <string name="rate_it_here_">Rate it here!</string>
+    
+    <string name="review_here_">Review Here...</string>
+    
+    <string name="title_activity_mobile">Contacts</string>
+    
+    <string name="title_activity_static_review">Make Your Reviews</string>
+        
+    <string name="add_your_review_">add your review...</string>
+    
+    <string name="comments_about_place">Comments about Place</string>
+    
+    <string name="add_your_comments_">add your comments...</string>
+    
+    <string name="title_activity_ChatOptions">Please Select Place</string>
+    
+	<string name="title_activity_ChatPage">Chats</string>
+
+    <string name="share">share</string>
+    
+    <string name="text_here">Text here</string>
+    
+    <string name="send">Send</string>
+    
+    <string name="this_is_harsh_and_utsav">This is Harsh and Utsav</string>
+    
+    <string name="call_us_on_9427804902">Call us ON: 9427804902 and 9898280368</string>
+    
+    <string name="or_you_can_mail_us_on_">Or you can mail us on:</string>
+    
+    <string name="harsh_sanghvi1111_yahoo_com">harsh_sanghvi1111@yahoo.com</string>
+    
+    <string name="upadhyayutsav_yahoo_com">upadhyayutsav@yahoo.com</string>
+    
+    <string name="click_the_above_menu_button_to_close">Click the above menu button to close</string>
+    
+    <string name="done">done</string>
+    
+    <string name="title_activity_UserComments">Your Comments</string>
+    
+    <string name="title_activity_UserDataProfile">Your Profile</string>
+    
+    <string name="title_activity_UserReviews">Your Reviews</string>
+    <string name="review">review</string>
+    
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainlay"
+    android:background="@android:color/black"
+    >
+           
+    <RelativeLayout
+        android:id="@+id/linearlay"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/SlidingButtonList"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:clickable="false"
+            android:background="@drawable/menu_icontran"
+            android:text=""
+             />
+        <Button
+            android:id="@+id/BtnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            
+            android:text=""
+            android:clickable="false"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtTitleline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/linearlay"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_centerVertical="true"
+        android:onClick="homeClick"
+        android:text="@string/follow_us"
+        
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+        
+    </TextView>
+ 
+
+
+    <RelativeLayout
+        android:id="@+id/linearlay1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtTitle"
+        android:clickable="true"
+        android:layout_marginLeft="10dp"
+        android:onClick="menuClick"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Btngoogle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/download3" />
+
+        <Button
+            android:id="@+id/Btnfacebook"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/Btngoogle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/download2" />
+
+        <Button
+            android:id="@+id/Btntwitter"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/Btnfacebook"
+            android:background="@drawable/download1" />
+    </RelativeLayout>
+     
+
+      
+</RelativeLayout>
+
